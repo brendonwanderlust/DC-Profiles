@@ -16,6 +16,30 @@ body {
 	/*background: transparent; */
 }
 
+.jumbotronProfiles {
+  background-image: url("../img/banner-img.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(32, 64, 96, 0.6); 
+  height: 30%;
+}
+
+#profilesHeader {
+	color: white;
+	font-weight: bold;
+	font-size: 4rem;
+}
+
+.currentRow:hover {
+	background-color: rgb(233, 236, 239);
+	cursor: pointer;
+}
+
+table {
+	width: 70%;
+	margin: auto 0;
+}
 
 .main-container {
 	width: 60%;
